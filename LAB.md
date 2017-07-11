@@ -25,7 +25,7 @@ Your store should offer the following methods:
   * creates an `_id` property on the object
   * returns `objectToSave` with added `_id` property
 * `.get(<id>)`
-  * returns the object from the requested table that has that id
+  * returns the object that has that id
   * return `null` if that id does not exist
 * `.getAll()`
   * returns array of all objects
